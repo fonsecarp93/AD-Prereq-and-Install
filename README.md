@@ -29,19 +29,25 @@ h2>Operating Systems Used </h2>
 
 <h2>Installation Steps</h2>
  1.) Create a Domain Controller Virtual Machine (Windows Server 2022) and set the DC's NIC Private IP address to static
+<p></p>Take note of your Resource group and Virtual Network that are created. They will be used again.
+<img src="https://i.imgur.com/jpeAVJZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dh9bOvY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
  2.) Create the Client Virtual Machine (Windows 10) in the same Resource group and Virtual Network as the Domain Controller.
    Note: Ensure both of the Virtual Machines are in the same Virtual Network within the Network Watcher)
 
+<img src="https://i.imgur.com/46kSGU0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KCk7qE5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 3.)  Establish connectivity between the Client and Domain Controller by enabling the ICMPv4 within the Domain Controller's local firewall.
 <p></p>
 Ensure connectivity is established by pinging the DC's private IP address from within the Client's local command prompt.
 <p> 
+<img src="https://i.imgur.com/WJrSGc4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 4.) Within the Domain Controller VM, install Active Directory Domain Services.
 </p>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 </p>
