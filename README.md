@@ -44,11 +44,22 @@ h2>Operating Systems Used </h2>
 Ensure connectivity is established by pinging the DC's private IP address from within the Client's local command prompt.
 <p> 
 <img src="https://i.imgur.com/WJrSGc4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src="https://i.imgur.com/mnF7nxC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
 4.) Within the Domain Controller VM, install Active Directory Domain Services.
 </p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KNQgoKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-
 </p>
+
+5.) Promote the same Virtual Machine as a DC: Set up a forest as mydomain.com
+
+<img src="https://i.imgur.com/fTbn8PV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+6.)Restart then log back into DC-1 as mydomain.com/username
+<p>Note: When installation is successful, the remote desktop will restart.
+ 
+<img src="https://i.imgur.com/KNQgoKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KREI53A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
 <br />
