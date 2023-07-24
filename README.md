@@ -16,7 +16,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
--
 
 h2>Operating Systems Used </h2>
 
