@@ -1,13 +1,13 @@
 # AD-Prereq-and-Install
 These are the steps needed to create your active directory and begin creating users.
 
-# osticket-prereqs
+# Active Directory Prerequisites
 
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/Aw0e5rl.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>Active Directory - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
